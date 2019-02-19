@@ -52,4 +52,22 @@ public class StackTest {
         // then
         assertEquals(expectedSize, result);
     }
+
+    @Test
+    public void shouldDeleteLastStackInput() {
+        // given
+        Stack stack = new Stack(8);
+        stack.push(3);
+        stack.push(5);
+        stack.push(7);
+        stack.push(9);
+
+        int expectedPopItem = 9;
+
+        // when
+        int result = stack.pop();
+
+        // then
+        assertEquals(expectedPopItem, result);
+    }
 }
