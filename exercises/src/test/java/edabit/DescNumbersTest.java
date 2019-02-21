@@ -18,7 +18,7 @@ public class DescNumbersTest {
         long result = sortDesc(num);
 
         // then
-        assertEquals(result, expectedNum);
+        assertEquals(expectedNum, result);
     }
 
     @Test
@@ -32,7 +32,7 @@ public class DescNumbersTest {
         long result = sortDesc(num);
 
         // then
-        assertEquals(result, expectedNum);
+        assertEquals(expectedNum, result);
     }
 
 }

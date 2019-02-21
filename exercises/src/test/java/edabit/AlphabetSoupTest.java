@@ -18,6 +18,6 @@ public class AlphabetSoupTest {
         String result = alphabetSoup(s);
 
         // then
-        assertEquals(result, expectedString);
+        assertEquals(expectedString, result);
     }
 }
