@@ -28,9 +28,4 @@ public class EasyLine {
         }
         return sum;
     }
-
-    public static void main(String[] args) {
-
-        System.out.println(easyLine(19));
-    }
 }
